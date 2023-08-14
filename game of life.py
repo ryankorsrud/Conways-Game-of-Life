@@ -182,7 +182,7 @@ def main():
         if cont == 'q' or cont == 'Q':
             print('game quit...')
             playing = False
-        elif cont == 'd' or cont == 'Q':
+        elif cont == 'd' or cont == 'D':
             debugOn = not debugOn
         oldWorld = copy(newWorld)
         
